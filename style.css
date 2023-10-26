@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #b13941 !important;
+    background-image: url(nav-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.2% 1% !important;
+}
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+}
+.nav-link{
+    color: white !important;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 40px !important;
+}
+.banner{
+    background-image: url(banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 20%;
+}
+.ban-title{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 4.9vw;
+    color: #feedda;
+    padding-bottom: 7%;
+}
+.ban-text{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 1.11vw;
+    color: white;
+    padding-bottom: 7%;
+}
+.ban-btn{
+    background-color: #b13941;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 1.1vw;
+    letter-spacing: 2px;
+    padding: 1% 3%;
+    margin-bottom: 5%;
+    border-radius: 0 !important;
+}
+.ban-btn:hover{
+    color: white;
+}
+.sec2{
+    background-color: #b13941;
+    background-image: url(shape-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 10%;
+    color: #feedda;
+}
+.sec2-img{
+    width: 80%;
+}
+.sec2-sub-title{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-bottom: 3%;
+    margin-top: 1.5%;
+}
+.sec2-title{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 3.5vw;
+    margin-bottom: 4%;
+}
+.sec2-text{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: .75vw;
+    margin-bottom: 4%;
+    width: 85%;
+}
+.btn-sec2{
+    background-color: #feedda;
+    color: #b13941;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    padding: 1% 3%;
+    border-radius: 0 !important;
+}
+.btn-sec2:hover{
+    color: #b13941;
+}
+.sec3{
+    background-color: #f8eed3;
+    /* padding: 0; */
+}
+.zero{
+    padding: 0;
+}
+.z-col{
+    padding: 6% 10%;
+}
+.z-title{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 4vw;
+    margin-bottom: 10%;
+}
+.z-text{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 1.11vw;
+    margin-bottom: 7%;
+}
+.z-link{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 1.11vw;
+    color: #b13941;
+    text-decoration: underline;
+}
+.z-link:hover{
+    color: #b13941;
+}
+.menu-sec{
+    background-image: url(Shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 5%;
+}
+.ms-title{
+    font-size: 3.2vw;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #f8eed3;
+}
+.ms-text{
+    font-size: 1.11vw;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #f8eed3;
+    width: 900px;
+}
+.carousel{
+    padding-bottom: 3%;
+}
+.carousel-indicators li{
+    border: 0 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 20px;
+    background-color: #f8eed3;
+}
+.carousel-item-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.carousel-item{
+    padding: 3% 0;
+}
+.co-card{
+    box-shadow: 0px 10px 15px 0px #0000005e;
+}
+.carousel-item-inner .co-card{
+    width: 30%;
+}
+.card-text-div{
+    padding: 50px 35px;
+    background-color: white;
+}
+.card-text-div h1{
+    margin-bottom: 35px;
+    font-size: 33.33px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+.card-text-div p{
+    margin-bottom: 35px;
+    font-size: 11.64px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+.card-text-div button{
+    background-color: #b13941;
+    font-size: 14.27px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    color: white;
+    border: 0;
+    padding: 1.5% 5%;
+    border-radius: 0px;
+}
+.store{
+    background-color: #f8eed3;
+    padding: 6% 7%;
+}
+.store-title{
+    font-size: 3.2vw;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b13941;
+}
+.store-text{
+    font-size: 1.11vw;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #b13941;
+    width: 900px;
+}
+.card{
+    width: 60%;
+    box-shadow: 0px 10px 15px 0px #0000005e;
+}
+.card-body{
+    padding-top: 0 !important;
+}
+.card-title{
+    background-color: #f8eed3;
+    padding: 3% 3%;
+    width: 70%;
+    position: relative;
+    top: -40px; 
+}
+.card-title p{
+    margin: 0;
+    border: 2px solid #b13941;
+    padding: 5% 10%;
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    color: #b13941;
+}
+.card-text{
+    margin-bottom: 15%;
+    font-size: 16.67px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+.card-btn{
+    background-color: #b13941;
+    font-size: 20.83px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    padding: 1.5% 5%;
+    border-radius: 0px;
+}
+.card-btn:hover{
+    color: white;
+}
+.profile{
+    padding: 6% 7%;
+    background-image: url(Shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-img{
+    width: 100%;
+    
+}
+.video-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+}
+.profile-title{
+    font-size: 3.2vw;
+    color: #f8eed3;
+    margin-top: 10%;
+}
+.profile-text{
+    font-size: 1.11vw;
+    color: #f8eed3;
+    margin-top: 5%;
+}
